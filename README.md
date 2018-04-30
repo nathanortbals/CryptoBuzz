@@ -1,7 +1,11 @@
 # CryptoBuzz
 
+If you are reading this markdown file locally, visit my github page [here](https://github.com/nathanortbals/CryptoBuzz/blob/master/README.md) for proper rendering
+
 [Link to website](http://ec2-18-222-37-129.us-east-2.compute.amazonaws.com/)
+
 Username: test
+
 Password: pass
 
 CryptoBuzz is a webapp that helps you compare google search trends with cryptocurrency prices. It does this with the aid of the Google Trends API and CryptoCompare API. CryptoCompare is written for Node.Js and uses bootstrap extensively.
