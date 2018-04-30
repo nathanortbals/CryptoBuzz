@@ -63,5 +63,7 @@ My client-side javascript can be found in public/javascripts, I make use of jQue
 The method to retrieve data for the graph is done asynchronously.
 
 ### Screenshots
-
-
+![chart page](https://raw.githubusercontent.com/nathanortbals/CryptoBuzz/master/screenshots/chart.png)
+![welcome page](https://raw.githubusercontent.com/nathanortbals/CryptoBuzz/master/screenshots/welcome.png)
+![login page](https://raw.githubusercontent.com/nathanortbals/CryptoBuzz/master/screenshots/login.png)
+![register page](https://raw.githubusercontent.com/nathanortbals/CryptoBuzz/master/screenshots/register.png)
