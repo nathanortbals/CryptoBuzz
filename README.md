@@ -26,7 +26,7 @@ As discussed in person and over email, Professor Wergeles let me use node.js ins
 
 * GET/POST behaviour
 
-####Get Methods: 
+Get Methods: 
 /get_data?startDate=&endDate=&currencyId
 For retrieving data for the graph
 /login
@@ -34,7 +34,7 @@ Get the login page
 /register
 Get the register page
 
-####Post Methods:
+Post Methods:
 /login
 For loging in
 /register
@@ -42,7 +42,7 @@ For registering
 
 The server side code for these calls can be found in app.js
 
-*User feedback
+* User feedback
 
 When inputing email addresses into register, it checks if is properly formatted
 
@@ -58,10 +58,10 @@ The welcome page has two youtube videos explaining what cryptocurrencies are
 
 My client-side javascript can be found in public/javascripts, I make use of jQuery here. I made extensive use of javascript on the server side. Most of my controls on the webapp are bootstrap controls (can be found in any of the partial views).
 
-*AJAX
+* AJAX
 
 The method to retrieve data for the graph is done asynchronously.
 
-###Screenshots
+### Screenshots
 
 
