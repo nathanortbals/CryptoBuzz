@@ -1,0 +1,24 @@
+<div class="container px-2 py-2">
+    <div class="row">
+        <div class="col-xs-2 my-1 mx-1">
+            <select id="currencyPicker" class="form-control" title="currency">
+                <option value="BTC" selected="selected">Bitcoin</option>
+                <option value="BCH">Bitcoin Cash</option>
+                <option value="ETH">Ethereum</option>
+                <option value="LTC">Litecoin</option>
+                <option value="XRP">Ripple</option>
+            </select>
+        </div>
+        <div class="col-xs-1 my-1 mx-1">
+            <input id="startDatePicker" class="form-control" type="text" placeholder="Start Date">
+        </div>
+        <div class="col-xs-1 my-1 mx-1">
+            <input id="endDatePicker" class="form-control" type="text" placeholder="End Date">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <canvas id="chartCanvas"></canvas>
+        </div>
+    </div>
+</div>

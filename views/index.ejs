@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+
+    <% if (user) { %>
+      <% include partials/chart.ejs %>
+    <% }
+    else { %>
+      <% include partials/welcome.ejs %>
+    <% } %>
+
+    <% include partials/footer.ejs %>
+    <% include partials/scripts.ejs%>
+
+    <% if (user) { %>
+        <% include partials/chartscripts.ejs %>
+    <% } %>
+  </body>
+</html>

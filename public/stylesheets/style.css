@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #282828;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5{
+    color: white;
+}
+
+h5{
+    font-size: medium;
+    color: #cccccc;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: larger;
+}
+
+.navbar-nav .nav-item .navbar-text {
+    color: white;
+    font-size: larger;
+}
+
+.form-control,.btn-primary{
+    background-color: rgba(40, 40, 40, 0.7);
+    color: white;
+    border: 1px solid rgb(206, 212, 218);
+    outline: none;
+}
+
+.col-form-label{
+    color: white;
+}
+
+.form-control:focus,.form-control:hover,.btn-primary:focus,.btn-primary:hover{
+    background-color: rgba(100, 100, 100, 0.7);
+    color: white;
+    border-color: rgb(206, 212, 218);
+    outline: none;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
